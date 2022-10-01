@@ -1,3 +1,5 @@
+// README string template with destructred properties from inquirer prompt
+
 const generateREADME = ({ title, description, installation, usage, tests, credits, license, contributing, github, email }) => 
 
 `# ${title}

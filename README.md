@@ -27,6 +27,12 @@
     npm install inquirer@8.2.4
 ```
 
+- Run this command to initialize the application:
+
+```
+    node index.js
+```
+
 
 ## Usage
 

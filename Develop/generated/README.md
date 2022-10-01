@@ -2,7 +2,7 @@
 
 ## Description
 
-- readme generator
+- readme generator with inquirer prompts
 
 ## Table of Contents
 
@@ -16,15 +16,15 @@
 
 ## Installation
 
-- install npm and inquirer@8.2.4
+- install inquirer and run node commands
 
 ## Usage
 
-- generates a readme based on terminal commands
+- run node commands in terminal
 
 ## Credits
 
-- na
+- n/a
 
 ## License
 
@@ -39,11 +39,11 @@
 
 ## Tests
 
-- na
+- n/a
 
 ## Contributing
 
-- na
+- n/a
 
 ## Questions
 

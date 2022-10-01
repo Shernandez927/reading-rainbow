@@ -1,11 +1,11 @@
-// TODO: Include packages needed for this application
+// Global variables for functionality
 
 const { writeFile } = require("fs").promises;
 const inquirer = require("inquirer");
 const {generateREADME} = require("./generateMarkdown");
 
 
-// TODO: Create an array of questions for user input
+// Array of questions for user input in terminal
 
 const promptUser = () => { 
   return inquirer.prompt([
@@ -63,7 +63,7 @@ const promptUser = () => {
 ])  
 }
 
-// Create a function to initialize app
+// Function to initialize app
 const init = () => {
     promptUser()
     .then((answers) => writeFile("./generated/README.md", generateREADME(answers)))
@@ -71,5 +71,5 @@ const init = () => {
     .catch((err) => console.log(err));
 }
 
-// Function call to initialize app
+// Function to initialize app
 init();
